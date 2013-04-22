@@ -1,4 +1,4 @@
-<%@page import="com.marv.business.entities.User"%>
+<%--@page import="com.marv.business.entities.User"--%>
 <script type="text/javascript">
 	/* Start OpenId authentication script */
 	(function() {
@@ -34,7 +34,7 @@
 	})();
 	/* End OpenId authentication script */
 </script>
-<% if(session.getAttribute("authenticated.user") != null) { %>
+<%--  <% if(session.getAttribute("authenticated.user") != null) { %>
 	<% User user = (User) session.getAttribute("authenticated.user"); %>
 	<%= user.getUsername() %>
 	<a href="?command=SignOut">Sign-Out</a>
@@ -44,4 +44,4 @@
 <a href="?command=Institution">Add Institution</a>
 <a href="?command=ListInstitutions">List Institutions</a>
 <a href="?command=User">Add User</a>
-<a href="?command=ListAuctionCategories">List Auction Categories</a>
+<a href="?command=ListAuctionCategories">List Auction Categories</a> --%>
