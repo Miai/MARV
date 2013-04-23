@@ -16,8 +16,9 @@
 	<%@ include file="inc/aboveheader.jsp"%>
 	<div class="content">
 		<%@ include file="inc/sidebar.jsp"%>
-		<div class="mainbar"></div>
+		<div class="mainbar">
 		<h1>Home</h1>
+		</div>
 	</div>
 	<%@ include file="inc/scripts.jsp"%>
 </body>
